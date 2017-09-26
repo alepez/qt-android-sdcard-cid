@@ -1,8 +1,5 @@
 import QtQuick 2.6
-import QtQuick.Layouts 1.3
 import QtQuick.Controls 2.1
-import QtQuick.Controls.Material 2.1
-import Qt.labs.settings 1.0
 
 ApplicationWindow {
   id: app
@@ -10,7 +7,7 @@ ApplicationWindow {
   visible: true
   width: 600
   height: 338
-  title: "SDCARD-CID"
+  title: "sdcard-cid"
 
   ListView {
     anchors { fill: parent; }

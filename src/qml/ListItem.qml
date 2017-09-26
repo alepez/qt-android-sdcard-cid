@@ -1,8 +1,4 @@
 import QtQuick 2.6
-import QtQuick.Layouts 1.3
-import QtQuick.Controls 2.1
-import QtQuick.Controls.Material 2.1
-import Qt.labs.settings 1.0
 import net.pezzato.sdcardcid 1.0
 
 Item {
