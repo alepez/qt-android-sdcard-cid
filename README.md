@@ -4,8 +4,20 @@ Shows CID of every sdcard.
 
 ## This project
 
-I made this project to:
+I made this project to explain how you can:
 
- - have a simple example of what you can do with Qt for Android
- - implementing a Qt plugin
- - calling java code from C++ and Qml
+ - develop with Qt for Android
+ - implement a Qt plugin
+ - call java code from C++ and Qml
+ - build without QtCreator or Android Studio, using only command line tools
+
+## Building
+
+Just call
+
+```
+make android_armv7/run
+```
+
+and it will build, install and run this app in your Android device. See
+`Makefile` for details.
