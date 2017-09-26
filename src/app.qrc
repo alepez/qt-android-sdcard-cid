@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/">
+    <!-- Qml -->
+    <file>qml/App.qml</file>
+    <file>qml/ListItem.qml</file>
+  </qresource>
+</RCC>
