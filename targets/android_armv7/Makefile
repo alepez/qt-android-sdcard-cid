@@ -47,8 +47,8 @@ default: all
 clean:
 	@rm -rf $(APP_BUILD_DIR) $(DIST_DIR)
 
-.PHONY: all
-all: apk
+.PHONY: debug-apk
+all: debug-apk
 
 .PHONY: release-apk
 release-apk: $(DIST_DIR)/build/outputs/apk/android_armv7-release.apk
