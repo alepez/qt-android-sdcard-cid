@@ -28,7 +28,7 @@ export ANDROID_SDK_ROOT = $(ANDROID_HOME)
 
 # ANDROID_NDK_ROOT Must contain
 # platform ndk-depends ... and other files
-export ANDROID_NDK_ROOT=/opt/android-ndk/android-ndk-r10e
+export ANDROID_NDK_ROOT=/opt/crystax
 
 export ANDROID_NDK_HOST=linux-x86_64
 export ANDROID_NDK_PLATFORM=android-17

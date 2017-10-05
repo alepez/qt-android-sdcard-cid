@@ -12,4 +12,5 @@ HEADERS += lib/plugin.hpp
 android: {
   QT += androidextras
   ANDROID_PACKAGE_SOURCE_DIR = $$PWD/../android
+  LIBS += -L/opt/crystax/sources/crystax/libs/armeabi-v7a
 }

@@ -12,6 +12,8 @@ android: {
 
   # Note: No one knows, but plugins must be first installed in Qt SDK qml directory.
   ANDROID_EXTRA_LIBS += /opt/Qt/5.8/android_armv7/qml/net/pezzato/sdcardcid/libSdcardCidPlugin.so
+  ANDROID_EXTRA_LIBS += /opt/crystax/sources/crystax/libs/armeabi-v7a/libcrystax.so
+  LIBS += -L/opt/crystax/sources/crystax/libs/armeabi-v7a
 
   DISTFILES += ../android/AndroidManifest.xml
   DISTFILES += ../android/gradle/wrapper/gradle-wrapper.jar
