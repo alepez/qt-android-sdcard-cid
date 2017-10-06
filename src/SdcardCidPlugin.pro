@@ -11,5 +11,5 @@ HEADERS += lib/plugin.hpp
 
 android: {
   QT += androidextras
-  LIBS += -L/opt/crystax/sources/crystax/libs/armeabi-v7a
+  LIBS += -L/opt/crystax/sources/crystax/libs/$$(APP_ABI)
 }
