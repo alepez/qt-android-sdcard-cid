@@ -12,10 +12,6 @@ PLUGIN_PRO_FILE ?= $(abspath $(SRC_DIR)/SdcardCidPlugin.pro)
 # This is named by Project
 DEPLOYMENT_SETTINGS_JSON = ${APP_BUILD_DIR}/android-lib$(PROJECT_NAME).so-deployment-settings.json
 
-# ANDROID_HOME Must contain
-# add-ons build-tools docs extras platforms platform-tools ... and other files
-ANDROID_HOME ?= /opt/android/sdk
-
 APP_BUILD_DIR := $(BUILD_DIR)/app
 PLUGIN_BUILD_DIR := $(BUILD_DIR)/plugin
 
@@ -23,8 +19,7 @@ PLUGIN_BUILD_DIR := $(BUILD_DIR)/plugin
 # be the only way.
 PLUGIN_DIST_DIR := $(QT_ROOT)/qml/net/pezzato/sdcardcid
 
-export ANDROID_HOME
-export ANDROID_SDK_ROOT = $(ANDROID_HOME)
+export ANDROID_SDK_ROOT = /opt/android/sdk
 
 # ANDROID_NDK_ROOT Must contain
 # platform ndk-depends ... and other files
