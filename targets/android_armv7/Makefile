@@ -1,4 +1,5 @@
 PROJECT_NAME = SdcardCid
+
 APP_ABI ?= x86
 export APP_ABI
 

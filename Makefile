@@ -33,7 +33,7 @@ android_armv7:
 
 .PHONY: android_x86
 android_x86:
-	$(MAKE) -C targets/android_armv7 BUILD_DIR=$(ABS_BUILD_DIR)/android_armv7 DIST_DIR=$(ABS_DIST_DIR)/android_armv7 SRC_DIR=$(ABS_SRC_DIR) APP_ABI=x86 QT_ANDROID_ABI=android_x86
+	$(MAKE) -C targets/android_x86 BUILD_DIR=$(ABS_BUILD_DIR)/android_x86 DIST_DIR=$(ABS_DIST_DIR)/android_x86 SRC_DIR=$(ABS_SRC_DIR) APP_ABI=x86 QT_ANDROID_ABI=android_x86
 
 .PHONY: clean
 clean:
