@@ -6,8 +6,6 @@ CONFIG += c++11
 SOURCES += main.cpp
 
 android: {
-  # QT += androidextras
-
   ANDROID_PACKAGE_SOURCE_DIR = $$PWD/../android
 
   # Note: No one knows, but plugins must be first installed in Qt SDK qml directory.
